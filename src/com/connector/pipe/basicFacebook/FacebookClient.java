@@ -26,7 +26,7 @@ public class FacebookClient extends OAuthBaseClient {
 	public static final Class<? extends Api> REST_API_CLASS = FacebookApi.class; // Change this
 	public static final String REST_URL = "http://graph.facebook.com/"; // Change this, base API URL
 	public static final String REST_CONSUMER_KEY = "797865323608595";       // Change this
-	public static final String REST_CONSUMER_SECRET = "f7a1eeab91dc6ef2adbc275d84e99cea"; // Change this
+	public static final String REST_CONSUMER_SECRET = "randomsecret"; // Change this
 	public static final String REST_CALLBACK_URL = "http://cpfacebook.com"; // Change this (here and in manifest)
 
 	public FacebookClient(Context context) {
